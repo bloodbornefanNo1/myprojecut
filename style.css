@@ -12,7 +12,8 @@
 }
 
 header {
-    position: sticky;
+    width: 100%;
+    position: fixed;
     background-color: rgb(28, 21, 45);
 }
 
@@ -20,6 +21,8 @@ body {
 
     color: white;
 }
+
+
 
 a {
     text-decoration: none;
@@ -68,8 +71,8 @@ svg {
 }
 
 .void_heart {
-    width: 50px;
-    height: 50px;
+    width: 75px;
+    height: 75px;
 
 }
 
@@ -104,6 +107,7 @@ span {
     font-size: x-large;
 }
 main{
+    padding-top: 80px;
     background-image: url(img/Site-background-dark.webp);
     min-height: 100vh;
     background-repeat: no-repeat;
@@ -116,13 +120,49 @@ main{
 .inputh:focus-within {
     border: 2px solid white;
 }
+.globalmain{
+    display: flex;
+    justify-content: center;
+}
+.globalcardm{
+    margin: 40px;
+    width: 80%;
+    background-color: rgba(37, 37, 37, 0.623);
 
-
-
-
-
-
-
+}
+.zagolovokm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    height: 100px;
+}
+.globalmain{
+    font-size: 20px;
+}
+ul{
+    padding-left: 30px;
+    list-style-image: url(https://vignette.wikia.nocookie.net/hollowknight/images/9/9a/BulletPoint.png);
+}
+.palecourt{
+    width: 500px;
+}
+.globalcardm{
+    display: flex;
+    flex-direction: row;
+   
+}
+.imgcardm{
+    margin-left: 75px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+li{
+    margin-bottom: 10px;
+}
+h3{
+    margin-bottom: 20px;
+}
 
 
 
