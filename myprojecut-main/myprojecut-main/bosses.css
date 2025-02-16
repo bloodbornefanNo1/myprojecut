@@ -1,0 +1,200 @@
+@font-face {
+    font-family: troyan;
+    src: url(img/TrajanPro-Regular.ttf);
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: troyan;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    background-color: rgb(28, 21, 45);
+}
+
+body {
+
+    color: white;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(157, 157, 157);
+}
+
+svg {
+    fill: white;
+    margin-right: 10px;
+}
+
+.hglobal {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.fhalf {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 55%;
+}
+
+.tavroking {
+    width: 75px;
+    height: 75px;
+}
+
+.kingsoul {
+    width: 75px;
+    height: 75px;
+}
+
+.shalf {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.void_heart {
+    margin-right: 20px;
+    width: 75px;
+    height: 75px;
+
+}
+
+.inputh {
+    display: flex;
+    background-color: rgb(8, 7, 33);
+    border: 2px solid rgb(132, 132, 132);
+    align-items: center;
+    border-radius: 50px;
+    padding: 0 8px;
+}
+
+input {
+    background-color: rgb(8, 7, 33);
+    border: none;
+    color: white;
+    border-radius: 50px;
+    padding: 8px;
+}
+
+input::placeholder {
+    color: white;
+   
+}
+
+.void {
+    display: flex;
+    align-items: center;
+}
+
+
+main{
+    padding-top: 80px;
+    background-image: url(img/Site-background-dark.webp);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.search:focus{
+    outline: none;
+}
+.inputh:focus-within {
+    border: 2px solid white;
+}
+.globalmain{
+    display: flex;
+    justify-content: center;
+    
+}
+.globalcardm{
+    margin: 40px;
+    width: 80%;
+    background-color: rgba(37, 37, 37, 0.623);
+}
+h1{
+    padding: 20px;
+}
+.zagolovokm{
+    text-align: center;
+}   
+.globalmain{
+    display: flex;
+    justify-content: center;
+}
+.globalcardm{
+    margin: 40px;
+    width: 80%;
+    background-color: rgba(37, 37, 37, 0.623);
+
+}
+.zagolovokm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    height: 100px;
+}
+.globalmain{
+    font-size: 20px;
+}
+ul{
+    padding-left: 30px;
+    list-style-image: url(https://vignette.wikia.nocookie.net/hollowknight/images/9/9a/BulletPoint.png);
+}
+.palecourt{
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+.globalcardm{
+    display: flex;
+    flex-direction: row;
+    
+   
+   
+}
+.imgcardm{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 75px;
+    margin-top: 20px;
+    margin-right: 20px;
+    min-width: 500px;
+}
+li{
+    margin-bottom: 10px;
+}
+h3{
+    margin-bottom: 20px;
+}
+.fpm{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px;
+}
+
+main p{
+  font-size: smaller;
+  padding: 5px;
+}
+
